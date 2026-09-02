@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ポートフォリオ サイトです。">
+
+    <!-- ogp -->
+    <meta property="og:url" content="https://portfolio-ny.co.jp/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PORTFOLIO Yoshikawa Natsuko">
+    <meta property="og:description"
+        content="ポートフォリオ サイトです。">
+    <meta property="og:site_name" content="PORTFOLIO Yoshikawa Natsuko">
+    <meta property="og:image" content="https://portfolio-ny.co.jp/assets/images/ogp.jpg">
+    <!-- favicon apple-touch-icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/images/android-chrome-256x256.png">
+
+    <title>PORTFOLIO Yoshikawa Natsuko</title>
+
+    <!-- webFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/destyle.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/top.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__topic"><a href="#">N.Y</a></h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html">Top</a></li>
+                    <li class="nav__item"><a href="index.html#profile">Profile</a></li>
+                    <li class="nav__item"><a href="index.html#projects">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="toggleBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <main class="main">
+            <article class="article">
+                <header class="article__header">
+                    <h2 class="mainTopic">PORTFOLIO</h2>
+                    <h3 class="subTopic">Yoshikawa Natsuko</h3>
+                </header>
+                <div class="triggerArea1">
+                    <section id="profile" class="profile">
+                        <h2 class="topic">Profile</h2>
+                        <div class="profile__group">
+                            <img class="mainIcon" src="assets/images/mainicon.jpg" alt="">
+                            <div class="introduction">
+                                <h3 class="introduction__name">吉川 菜津子<span class="introduction__name--alpha">Yoshikawa Natsuko</span></h3>
+                                <p class="introduction__desc">2023年10月よりクラウドサービスのテクニカルサポートに従事。<br>2026年1月よりデジタルハリウッド・オンラインスクールにて Web デザインを学び、デザイン基礎からコーディングまで体系的に習得。<br>テクニカルサポートで培った課題解決力とデザイン・実装スキルを組み合わせ、使いやすさに寄り添う Web サイトやアプリケーションを制作できる人材を目指す。</p>
+                        </div>
+                        </div>
+                        <h3 class="skill">学習したスキル</h3>
+                        <ul class="skill__list">
+                            <li class="skill__item">Illustrator</li>
+                            <li class="skill__item">Photoshop</li>
+                            <li class="skill__item">HTML</li>
+                            <li class="skill__item">CSS</li>
+                            <li class="skill__item">JavaScript</li>
+                            <li class="skill__item">Figma</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="triggerArea2">
+                    <section id="projects" class="projects">
+                        <h2 class="topic">Projects</h2>
+                        <div class="project__group">
+                            <a class="project__item" href="project02.html"><img src="assets/images/ndj-visual.jpg" alt="Night Drift Jellyfisのメインビジュアル"><p class="project__txt"><span>修了制作</span>Night Drift Jellyfish</p></a>
+                            <a class="project__item" href="project01.html"><img src="assets/images/ProductionProject.png" alt="コーディング課題一覧の画像"><p class="project__txt project__txt--txt">コーディング課題まとめ</p></a>
+                        </div>
+                    </section>
+                </div>
+                <p class="copy"><small>&copy;2026 yoshikawa</small></p>
+            </article>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
